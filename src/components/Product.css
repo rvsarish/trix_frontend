@@ -1,0 +1,25 @@
+
+.CardImgCustom {
+    width: 100%;
+    height: auto;
+    
+  }
+  
+  @media (max-width: 576px) {
+    .product-title {
+      font-size: 1.2rem; 
+    }.CardImgCustom {
+      
+        object-fit: contain; 
+      }
+  }
+  
+  @media (min-width: 577px) and (max-width: 768px) {
+    .product-title {
+      font-size: 1.5rem;
+    }.CardImgCustom {
+       
+        object-fit: contain;
+      }
+  }
+  

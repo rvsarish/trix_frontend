@@ -1,0 +1,6 @@
+{
+    "routes": [
+      { "src": "/api/(.*)", "dest": "https://trix-kfxs-sarish-rvs-projects.vercel.app/" }
+    ]
+  }
+  
